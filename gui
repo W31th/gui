@@ -1,0 +1,21 @@
+-- Instances:
+local SongID = "http://www.roblox.com/asset/?id=8892310461"
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.Size = UDim2.new(0, 1511, 0, 879)
+main.Active = true
+
+ImageLabel.Parent = main
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Size = UDim2.new(0, 1511, 0, 879)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=8978920371"
